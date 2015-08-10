@@ -1,0 +1,212 @@
+.overlay {
+  width: 100%;
+  height: 100%;
+  background: white;
+  opacity: 0.8;
+  position: absolute;
+  z-index: 10;
+  color: white;
+}
+
+.ghost-button {
+  display: inline-block;
+  width: 200px;
+  padding: 8px;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+}
+
+.ghost-button-rounded-corners {
+  width: 20px;
+  padding: 8px;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+/*  background: white;*/
+  opacity: 0.5;
+}
+
+
+.circle {
+  background-color: rgba(0, 0, 0, 0);
+  border-radius:50%;
+ /* z-index: -1;*/
+}
+
+.circle-alternative {
+  background-color: rgba(172, 209, 233, 100);
+  border-radius: 50%;
+}
+
+.categories {
+  color: #B2B2CC;
+}
+
+.categories2 {
+  color: white;
+
+}
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+
+.img-responsive{
+  width:100%;
+}
+
+img {
+  padding-top: 0px !important;
+
+}
+
+body {
+  font-family: 'oswald';
+}
+
+/*table {
+  width: 70% !important;
+  height: auto !important;
+}*/
+
+table tr, td, col, th, tbody {
+   border: 10px solid #A3A3C2;
+   border-left: 10px solid #A3A3C2 !important;
+   padding-top: 3% !important;
+   padding-bottom: 3%;
+
+}
+
+.reviews {
+color: #B2B2CC;
+text-align: center;
+}
+
+.row1col1 {
+  font-size: 15px;
+  font-style: bold;
+  color: white;
+  background-color: blue;
+}
+
+
+.navbar {
+  text-align: center !important;
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.nav-center > li {
+    float: none;
+    display: inline-block;
+  }
+
+
+.top {
+    position: fixed;
+    top: 50px;
+    left:0;
+    right:0;
+    height: 50%;
+    width: 100%;
+    background-image: url(http://s12.postimg.org/u0sqim0q5/Kar_Farm_Background_Car.jpg);
+    background-repeat: none;   
+}
+
+
+.bottom {
+    position: fixed;
+    width: 100%; 
+    height: 50%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: white; 
+    color: black; 
+    overflow: scroll;
+
+}
+
+.ghost-button { 
+  display: inline-block;
+  width: 200px;
+  padding: 8px;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  margin: 0 auto;
+}
+
+.ghost-button1 {
+  text-align: center;
+}
+
+.ghost-button2 {
+  text-align: center;
+}
+
+
+
+.btn-sign .btn-sign:link, .btn-sign:visited  {
+  background-color: green !important;
+  text-align: center;
+
+}
+
+.btn-select .btn-select:link, .btn-select:visited {
+    background-color: transparent !important;
+    border-radius: 0;
+    color: #6f5499;
+    border: 2px solid white;
+}
+
+h2 {
+margin-bottom:0 !important;
+color: white !important;
+text-align: center;
+} 
+
+h4 {
+  margin-top: 10px;
+  margin-bottom:0 !important;
+  text-align: center;
+}
+
+h5 {
+  color: rgba(255,255,255,100) !important;
+  text-align: center;
+}
+
+p {
+  margin-top:0 !important;
+  margin-bottom: 20px;
+  text-align: center;
+} 
+
+.one {
+  margin-top:0 !important;
+  color: white;
+  font-size: 15px;
+} 
+
+a {
+  color: white !important;
+}
+
